@@ -18,7 +18,7 @@
     "id": 3,
     "descricao": "carregador",
     "estoque": 75,
-    "valor": 92,
+    "valor": 100,
     "imagem" : "img/carregador.png"
     }
     ]
