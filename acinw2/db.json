@@ -2,24 +2,24 @@
     "produtos": [
     {
     "id": 1,
-    "descricao": "Tenis 1",
+    "descricao": "Capinha de celular",
     "estoque": 67,
     "valor": 60,
-    "imagem": "img/Tenis1.png"
+    "imagem": "img/capinha.jpg"
     },
     {
     "id": 2,
-    "descricao": "Tenis 2",
+    "descricao": "pelicula",
     "estoque": 71,
     "valor": 65,
-    "imagem" : "img/Tenis2.jpg"
+    "imagem" : "img/pelicula.png"
     },
     {
     "id": 3,
-    "descricao": "Tenis 3",
+    "descricao": "carregador",
     "estoque": 75,
     "valor": 92,
-    "imagem" : "img/Tenis3.png"
+    "imagem" : "img/carregador.png"
     }
     ]
 }
