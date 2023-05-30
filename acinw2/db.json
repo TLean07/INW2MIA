@@ -1,0 +1,26 @@
+{
+    "produtos": [
+    {
+    "id": 1,
+    "descricao": "Tenis 1",
+    "estoque": 67,
+    "valor": 60,
+    "imagem": "img/Tenis1.png"
+    },
+    {
+    "id": 2,
+    "descricao": "Tenis 2",
+    "estoque": 71,
+    "valor": 65,
+    "imagem" : "img/Tenis2.jpg"
+    },
+    {
+    "id": 3,
+    "descricao": "Tenis 3",
+    "estoque": 75,
+    "valor": 92,
+    "imagem" : "img/Tenis3.png"
+    }
+    ]
+}
+   
