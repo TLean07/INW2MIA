@@ -8,9 +8,8 @@ altura = 3
 base2 = 4
 altura2 = 2
 
-area = base * altura
+area =  base * altura
 area2 = base2 * altura2
 
-console.log("A area é"+area)
-console.log("A area 2 é"+area2)
- 
+console.log("A area é "+area)
+console.log("A area 2 é "+area2)
