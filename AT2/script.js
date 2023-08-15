@@ -6,6 +6,8 @@ let valor = [25.00, 20.00, 15.00, 12.00, 18.00, 8.00, 30.00, 22.00, 5.00, 10.00]
 let movimento = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 let estoque = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 let opcaoMeuPrincipal=""
+let auxCod=""
+let posicao = -1
 
 //programa principal
 while(opcaoMeuPrincipal != "2"){
@@ -32,6 +34,26 @@ while(opcaoMeuPrincipal != "2"){
                     console.log(cod[x]+"\t"+descricao[x]+"\t"+valor[x]+"\t"+estoque[x])
                 }
             }
+            else if(opcaoSubMenu=="2"){
+                auxCod = leia("Digite o Codigodo produto que deseja alterar : ")
+                for (let x= 0; x<cod.length; x++){
+                    if(auxCod==cod[x]){
+                        posicao = x
+                    }
+                }
+                if(posicao == -1){
+                    console.log("Produto não encontrado")
+                }
+                else {
+                    cod[posicao]=leia("Digite o novo codigo : ");
+                    descricao[posicao]=leia("Digite a nova descrição : ");
+                    valor[descricao]=parseFloat(leia("Digite o novo preço : "));
+                    estoque[descricao]=parseInt(leia("Digite o novo preço : "));
+                }
+            }
         }
     }
 }
+
+//fim do programa
+console.log("Até breve")
