@@ -1,18 +1,17 @@
 {
-  "dependencies": {
-    "firebase": "^10.3.1",
-    "mogoose": "^0.0.1-security",
-    "mongoose": "^7.5.0",
-    "nodemon": "^3.0.1"
-  },
   "name": "login",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^10.3.1",
+    "mongoose": "^7.5.0",
+    "nodemon": "^3.0.1"
+  },
   "keywords": [],
-  "author": "Leandro",
-  "license": "ISC"
+  "description": ""
 }

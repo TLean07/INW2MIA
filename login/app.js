@@ -21,15 +21,10 @@ loginButton.addEventListener('click', ()=>{
   firebase.auth().signInWithEmailAndPassword(email,password)
   .then((userCredential)=>{
     const user = userCredential.user;
-    console.log("Usuário Logado : ", user)
+    console.log("Usuário logado : ", user)
   })
   .catch((error)=>{
     const errorMessage = error.message;
-    console.log("Erro de autenticação : ", errorMessage)
+    console.error("Erro de autenticação : ", errorMessage)
   });
 });
-
-
-
-
-
