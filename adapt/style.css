@@ -1,0 +1,120 @@
+h2 {
+  color: #1590f5;
+
+/* Title_desk */
+font-family: Futura;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+width: 547px;
+height: 58px;
+flex-shrink: 0;
+}
+
+p{
+  color: #1590f5;
+
+/* Txt_desk */
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 498.729px;
+}
+
+h1{
+  width: 547px;
+  height: 58px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Futura;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.image-container {
+  float: left;
+  margin-right: 10px; /* Espaço entre as imagens */
+}
+
+.retangulo {
+  width: 1280px;
+  height: 316px;
+  flex-shrink: 0;
+  margin-top: 20px; /* Ajuste o valor do margin-top conforme necessário */
+}
+
+.retangulo2 {
+  width: 1280px;
+  height: 416px;
+  flex-shrink: 0;
+  background-color: #306CB4;
+  margin-top: 20px; /* Ajuste o valor do margin-top conforme necessário */
+}
+
+.retangulo3 {
+  width: 1280px;
+  height: 111px;
+  flex-shrink: 0;
+  background: #21386E;
+}
+
+h3 {
+  color: #FFF;
+  font-family: Futura;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.retangulo4 {
+  width: 377.36px;
+  height: 55.12px;
+  flex-shrink: 0;
+  border-radius: 11.307px;
+  background: #FFF;
+}
+
+.retangulo5 {
+  width: 377.36px;
+  height: 20.12px;
+  flex-shrink: 0;
+  border-radius: 11.307px;
+}
+
+.retangulo6 {
+  width: 377.36px;
+  height: 55.12px;
+  flex-shrink: 0;
+  border-radius: 11.307px;
+  background: #FFF;
+}
+
+.retangulo7 {
+  display: inline-flex;
+  padding: 22.613px 45.227px;
+  justify-content: center;
+  align-items: center;
+  gap: 14.133px;
+  border-radius: 11.307px;
+  border: 4.24px solid #C7A008;
+  background: #FFCB05;
+  box-shadow: 5.65333px 5.65333px 12.72px 0px rgba(255, 255, 255, 0.36);
+}
+
+.Senha {
+  color: #B8B8B8;
+font-family: Lato;
+font-size: 16.96px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
